@@ -1,4 +1,8 @@
+"""
+high level support for doing this and that.
+"""
+
 print("hello" * 10)
-x = 3
-y = 6
-z = 8
+VAL = 3
+VAL_Y = 6
+VAL_Z = 8
