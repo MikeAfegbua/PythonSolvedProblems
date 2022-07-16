@@ -1,8 +1,9 @@
 """
 high level support for doing this and that.
 """
-
-print("hello" * 10)
-VAL = 3
-VAL_Y = 6
-VAL_Z = 8
+counter = 0
+for num in range(1, 15):
+    if num % 2 == 0:
+        counter += 1
+        print(num)
+print(f"we have {counter} even numbers")
